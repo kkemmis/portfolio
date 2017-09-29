@@ -1,0 +1,139 @@
+/***** Base Styles *****/
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+#about, #skills, #work  {
+	height: 550px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** Header *****/
+
+header {
+	height: 525px;
+	background: url("../img/header-image.png");
+	background-size: cover;
+}
+header h1 {
+	padding: 50px 0;
+	font-family: 'Fauna One', serif;
+	font-size: 30px;
+	color: #94bbba;
+	text-transform: uppercase;
+}
+header h2{
+	padding: 50px 0;
+	font-family: 'Fauna One', serif;
+	font-size: 35px;
+	color: #94bbba;
+	text-transform: uppercase;
+}
+
+/***** About *****/
+
+#about .full-width {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#about p{
+	padding-right: 50px;
+}
+
+#about img {
+	max-width: 100%;
+	height: auto;
+}
+
+/***** skills *****/
+#skills .full-width {
+	padding: 80px 0;
+}
+#skills .third-width{
+	text-align: center;
+}
+#skills h2{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+ #skills i {
+ 	padding: 30px 0;
+ }
+ #skills p{
+ 	text-align: justify;
+ 	margin: 30px;
+ }
+
+ /***** Work *****/
+ #work {
+ 	background-color: #e8e8e8;
+ }
+ #work .full-width {
+ 	padding: 80px 0;
+ 	
+ }
+ #work .third-width{
+ 	padding: 30px 0;
+text-align: center;
+ }
+ #work h2{
+ 	font-size: 20px;
+	text-transform: uppercase;
+ }
+ #work  p{
+ 	text-align: justify;
+ 	margin: 30px;
+ }
+ #work .third-width img {
+
+	max-width: 100%;
+	max-height: 180px;
+	border: 10px solid #94bbba;
+}
+
+/***** Contact *****/
+#contact .full-width{
+	padding: 80px 0;
+	height: ;
+}
+#contact h2{
+ 	font-size: 20px;
+	text-transform: uppercase;
+ }
+ #contact p{
+ 	font-size: 20px;
+ }
+ #contact a{
+
+ 	text-decoration: none;
+ 	color: #94bbba;
+ }
+ #contact ul {
+	list-style: none;
+	text-align: right;
+}
+#contact ul li {
+
+	display: inline-block;
+	padding-right: 48px;
+}
